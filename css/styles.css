@@ -21,6 +21,9 @@ h2 {
   line-height: 1.5;
 }
 
+
+
+
 /* ID targating */
 
 #title {
@@ -33,7 +36,48 @@ h2 {
   text-align: center;
 }
 
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#features {
+  text-align: center;
+  background-color: white;
+  position: relative;
+  padding: 7% 15%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+  padding: 1% 0;
+}
+
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#footer .card {
+  background-color: #fff;
+  margin: 7% 15%;
+}
+
 /* class targating */
+
+.footer-icon {
+  padding: 9px;
+}
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
@@ -74,12 +118,6 @@ h2 {
   color: #ff4c68;
 }
 
-#features {
-  text-align: center;
-  background-color: white;
-  position: relative;
-  padding: 7% 15%;
-}
 
 .text-content {
   font-family: 'Montserrat-Bold';
@@ -90,12 +128,6 @@ h2 {
   color: #8f8f8f;
 }
 
-#testimonials {
-  background-color: #ef8172;
-  text-align: center;
-  color: #fff;
-  padding: 1% 0;
-}
 
 .carousel-item {
   padding: 7% 15%;
@@ -107,30 +139,25 @@ h2 {
   margin: 20px;
 }
 
-#press {
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-#press img {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
 .pricing-column {
   padding: 3% 2%;
+}
+
+.cta-button {
+  margin-top: 3%;
+}
+
+.cta-text {
+  font-family: "Montserrat-Black";
 }
 
 @media (max-width: 1028px) {
   #title {
     text-align: center;
   }
-  
   #features {
     position: static;
   }
-  
   .title-image {
     position: static;
     transform: rotate(0);
